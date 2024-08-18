@@ -6,14 +6,17 @@
   bottom: 0;
   width: 100%;
 }
+
 .nav__list {
   display: flex;
   justify-content: space-between;
 }
+
 .nav__link {
   color: #2e363e;
   position: relative;
 }
+
 .nav__message-notification {
   background-color: tomato;
   width: 30px;
@@ -28,6 +31,7 @@
   left: 15px;
   bottom: 15px;
 }
+
 .nav__dot-notification {
   background-color: tomato;
   width: 7px;
