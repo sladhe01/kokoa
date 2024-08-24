@@ -16,3 +16,18 @@
   height: 7px;
   border-radius: 50%;
 }
+
+.phone-number-badge {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #ff6554;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  font-size: 15px;
+  color: #ff6554;
+}
