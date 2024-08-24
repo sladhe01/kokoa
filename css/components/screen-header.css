@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--horizontal-space);
+  padding: 35px var(--horizontal-space) 15px var(--horizontal-space);
   position: fixed;
-  top: 36px;
+  top: 26px;
   width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 
 .screen-header__title {
@@ -15,4 +17,14 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+span + .dot-badge {
+  position: absolute;
+  left: 65px;
+  bottom: 15px;
 }
