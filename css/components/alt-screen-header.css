@@ -6,6 +6,17 @@
   justify-content: center;
   width: 100%;
   padding: var(--horizontal-space);
+  background-color: inherit;
+  z-index: 1;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
 }
 
 .alt-header__title {
@@ -13,10 +24,12 @@
   font-weight: 600;
 }
 
-.alt-header__column:first-child {
-  margin-right: auto;
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.alt-header__column:last-child {
-  margin-left: auto;
+.alt-header__column:last-child span {
+  margin-left: 25px;
 }
